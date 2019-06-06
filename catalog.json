@@ -1,0 +1,20 @@
+{
+  "stac_version": "0.7.0",
+  "id": "sample",
+  "title": "Sample catalog",
+  "description": "This is a very basic sample catalog.",
+  "links": [
+    {
+      "href": "sample.json",
+      "rel": "item"
+    },
+    {
+      "href": "s3://vizlab-data/stac-test/catalog.json",
+      "rel": "root"
+    },
+    {
+      "href": "s3://vizlab-data/stac-test/catalog.json",
+      "rel": "self"
+    }
+  ]
+}

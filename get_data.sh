@@ -1,2 +1,1 @@
-nccopy https://cida.usgs.gov/thredds/dodsC/loca_future?tasmin_ACCESS1-3_r1i1p1_rcp45[0:1:100][0:1:20][0:1:20] data/test.nc
-
+nccopy https://cida.usgs.gov/thredds/dodsC/prism_v2?ppt[1000:1:1100][400:1:420][800:1:820] data/test.nc 

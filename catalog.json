@@ -5,15 +5,16 @@
   "description": "This is a very basic sample catalog.",
   "links": [
     {
-      "href": "sample.json",
-      "rel": "item"
+      "href": "item.json",
+      "rel": "item",
+      "title": "netcdf item"
     },
     {
-      "href": "s3://vizlab-data/stac-test/catalog.json",
+      "href": "/Users/wwatkins/Documents/nonR/cloud_gdp_sandbox/catalog.json",
       "rel": "root"
     },
     {
-      "href": "s3://vizlab-data/stac-test/catalog.json",
+      "href": "/Users/wwatkins/Documents/nonR/cloud_gdp_sandbox/catalog.json",
       "rel": "self"
     }
   ]

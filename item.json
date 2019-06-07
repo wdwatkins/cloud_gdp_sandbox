@@ -1,7 +1,6 @@
 {
   "type": "Feature",
   "id": "test_netcdf",
-  "driver": "netcdf",
   "bbox": [-122.59750209, 37.48803556, -122.2880486, 37.613537207],
   "geometry": {
     "type": "Polygon",
@@ -16,21 +15,20 @@
     ]
   },
   "properties": {
-    "datetime": "2016-05-03T13:21:30.040Z",
-    "driver": "netcdf"
+    "datetime": "2016-05-03T13:21:30.040Z"
   },
   "collection": "CS3",
   "links": [
     {
       "rel": "self",
-      "href": "s3://vizlab-data/stac-test/sample.json"
+      "href": "item.json"
     }
   ],
   "assets": {
     "test_netcdf": {
       "href": "data/test.nc",
       "title": "Test netcdf file",
-      "driver": "netcdf"
+      "type": "netcdf"
     }
   }
 }
